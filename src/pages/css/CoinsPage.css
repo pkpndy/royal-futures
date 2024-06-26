@@ -1,0 +1,9 @@
+.coins-page {
+  margin-left: 180px; /* Adjust the margin to account for the fixed sidebar width */
+  padding: 20px;
+}
+
+.pageHeading{
+  display: flex;
+  justify-content: center;
+}
