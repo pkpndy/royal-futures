@@ -16,7 +16,7 @@ const BotsPage = () => {
   // console.log(coinList)
 
   useEffect(() => {
-    console.log("Current state: ", coinList);
+    console.log("coin state: ", coinList);
     console.log("todos: ", todos)
   },[coinList, todos]);
 
@@ -30,7 +30,8 @@ const BotsPage = () => {
       <button onClick={(e) => dispatch(fetchTodos())}>FetchTodos</button>
       <hr />
       <button onClick={(e) => dispatch(fetchCoinList())}>fetchCoinList</button>
-
+      <hr />
+      
 
 
     </div>

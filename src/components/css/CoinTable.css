@@ -23,7 +23,7 @@
 
 .userName {
   font-weight: bold;
-  font-size:x-large
+  font-size: x-large;
 }
 
 .headLine {
@@ -80,12 +80,13 @@
 }
 
 .coin-text {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
+  color: #6c757d;
   margin-bottom: 5px;
 }
 
 .coin-subtext {
-  font-size: 14px;
-  color: #6c757d;
+  font-size: 16px;
+  font-weight: bold;
 }
